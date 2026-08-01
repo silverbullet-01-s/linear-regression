@@ -48,8 +48,8 @@ def main():
             x = [1,x]
             x =  np.array(x)
             kq = theta @ x
-            print(kq)
-            #print(round(theta @ x))
+            #print(kq)
+            print(round(theta @ x))
         else: break
 
 main()
